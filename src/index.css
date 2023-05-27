@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    color: teal;
+}
+
+.btn {
+    font-style: italic;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.add-btn {
+    background: #5eec7f;
+}
+
+.remove-btn {
+    background: #ec8a90;
+}
+
+.text-btn {
+    display: block;
+    padding: 10px;
+}
